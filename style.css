@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+header {
+    width: 100%;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 350px;
+}
+
+.logo-img{
+    height: auto;
+    width: 200px;
+    object-fit: contain;
+}
+
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.right-nav {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.right-nav span {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.quote-btn {
+    padding: 15px 25px;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.first-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding-left: 180px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.first-section h1{
+    font-size: 60px;
+    font-weight: 600;
+    width: 500px;
+}
+
+.sub-text{
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.call-for {
+    color: #e53935;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contact-btn {
+    border: 1px solid grey;
+    padding: 15px 40px;
+    font-size: 18px;
+    color: grey;
+    background-color: white;
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+}
+
+.services {
+    width: 80%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-cards {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: #ECEEE9;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.service-cards img {
+    width: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    object-fit: cover;
+}
+
+.service-cards p {
+    font-size: 14px;
+    color: #333;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.services div{
+    align-content: center;
+    text-align: center;
+}
+
+
+
