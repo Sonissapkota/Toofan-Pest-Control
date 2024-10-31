@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        /* Container for image and text */
+        div {
+            position: relative; /* Ensures .item is positioned relative to this div */
+        }
+
+        /* Styles for the text box */
+        .item {
+            display: flex;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1; 
+            padding: 20px;
+            border-radius: 8px;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Image styling */
+        img {
+            width: 100%; /* Ensures the image takes full width of the container */
+            height: auto;
+            z-index: 0; /* Image is below .item */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="item">
+            <h1>Hello, this is Sonis Sapkota</h1>
+            <p>I live in Bhairahawa</p>
+        </div>
+        <img src="./Img/flies-bg-image.jpg" alt="Background Image">
+    </div>
+</body>
+</html>
