@@ -318,7 +318,7 @@ nav{
 .fourth-section{
     display: flex;
     justify-content: center;
-    margin-top: 100pxpx;
+    margin-top: 100px;
 }
 
 .fourth-section-left{
@@ -326,6 +326,8 @@ nav{
     width: 50%;
     flex-direction: column;
     align-items: start;
+    margin-top: 50px;
+    padding-left: 200px;
 }
 
 .fourth-section-left p{
@@ -336,7 +338,7 @@ nav{
 }
 
 .fourth-section-left h1{
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 25px;
 }
 
@@ -360,4 +362,15 @@ nav{
     font-size: 40px;
     font-weight: 200;
     color: red;
+}
+
+.fourth-section-right{
+    width: 50%;
+    height: 550px;
+
+}
+
+.fourth-section-right img{
+    height: 100%;
+    padding-left: 200px;
 }
