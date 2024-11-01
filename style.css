@@ -332,7 +332,7 @@ nav{
     color: grey;
     width: 320px;
     line-height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .fourth-section-left h1{
@@ -344,5 +344,20 @@ nav{
     height: 1px;
     width: 30px;
     background-color: #e53935;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.faq span{
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: 200;
+    color: red;
 }
