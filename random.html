@@ -3,41 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
+    <title>Document</title>
     <style>
-        /* Container for image and text */
-        div {
-            position: relative; /* Ensures .item is positioned relative to this div */
-        }
+        /* Main footer styling */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6e8b38; /* Green background color */
+  padding: 20px 40px;
+  position: relative;
+  color: #d3d3d3; /* Text color */
+}
 
-        /* Styles for the text box */
-        .item {
-            display: flex;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            z-index: 1; 
-            padding: 20px;
-            border-radius: 8px;
-            align-items: center;
-            flex-direction: column;
-        }
+/* Red triangle */
+.triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  background-color: #d32f2f; /* Red color */
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  z-index: 1;
+}
 
-        /* Image styling */
-        img {
-            width: 100%; /* Ensures the image takes full width of the container */
-            height: auto;
-            z-index: 0; /* Image is below .item */
-        }
+/* Logo section */
+.footer-section.logo {
+  position: relative;
+  z-index: 2; /* Ensures it appears above the triangle */
+  padding-left: 40px; /* Adds space from the left */
+}
+
+.footer-section.logo h2 {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Contact info styling */
+.footer-section.contact-info {
+  text-align: left;
+  flex: 1;
+  padding-left: 40px;
+  z-index: 2;
+}
+
+.footer-section.contact-info p {
+  margin: 5px 0;
+  color: #b0c4b1;
+}
+
+/* Quote section */
+.footer-section.quote {
+  text-align: center;
+  z-index: 2;
+}
+
+.footer-section.quote button {
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-section.quote .social-icons span {
+  margin: 0 5px;
+  color: white;
+}
+
+/* Copyright */
+.footer-section.copyright {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #b0c4b1;
+  z-index: 2;
+}
+
     </style>
 </head>
-<body>
-    <div>
-        <div class="item">
-            <h1>Hello, this is Sonis Sapkota</h1>
-            <p>I live in Bhairahawa</p>
+<body style="margin-top: 400px;">
+    <div class="footer">
+        <div class="footer-section logo">
+          <!-- Logo and branding content -->
+          <div class="triangle"></div> <!-- Red triangle -->
+          <h2>TOOFAN PEST CONTROL</h2>
         </div>
-        <img src="./Img/flies-bg-image.jpg" alt="Background Image">
-    </div>
+        <div class="footer-section contact-info">
+          <!-- Contact information -->
+          <p>Talk to us about pest control for your home or business</p>
+          <p>📞 03-1234567</p>
+          <p>✉️ info@gmail.com</p>
+        </div>
+        <div class="footer-section quote">
+          <p>or</p>
+          <button>GET A QUOTE</button>
+          <p>Find Us On</p>
+          <!-- Social media icons -->
+          <div class="social-icons">
+            <span>Facebook Icon</span>
+            <span>Instagram Icon</span>
+            <span>LinkedIn Icon</span>
+            <span>YouTube Icon</span>
+          </div>
+        </div>
+        <div class="footer-section copyright">
+          <p>© 2022 Toofan Pest Control. All Rights Reserved.</p>
+        </div>
+      </div>
+      
 </body>
 </html>
