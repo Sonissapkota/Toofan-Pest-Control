@@ -498,5 +498,31 @@ nav{
     font-weight: 400;
 }
 
+.footer-social{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.footer-social p{
+    color: #77a885;
+    margin-bottom: 20px;
+}
+
+.footer-social button{
+    background-color: transparent;
+    color: white;
+    padding: 15px 70px;
+    border: 1px solid white;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.social-media{
+    color: white;
+}
+
+.social-media i{
+    margin-right: 20px;
+}
 
 
